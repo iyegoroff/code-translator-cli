@@ -23,5 +23,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iyegoroff/code-translator-cli.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/iyegoroff/code-translator-cli/issues"
+  },
+  "homepage": "https://github.com/iyegoroff/code-translator-cli#readme",
+  "keywords": [
+    "code-translator"
+  ]
 }
