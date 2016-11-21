@@ -3,9 +3,6 @@
   "version": "0.0.0",
   "description": "CLI for http://www.carlosag.net/tools/codetranslator/",
   "main": "code-translator-cli.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "iyegoroff <iegoroff@gmail.com>",
   "license": "MIT",
   "dependencies": {
