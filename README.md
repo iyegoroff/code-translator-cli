@@ -16,7 +16,7 @@ $ npm i code-translator-cli -g
 ## Usage
 
 ```bash
-$ code-translator-cli <input_folder> <output_folder> <input_language> <output_language>
+$ code-translator-cli <input_dir> <output_dir> <input_lang> <output_lang>
 ```
 
 `input_language` can be `VB`, `C#`, or `JAVA` </br>
