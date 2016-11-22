@@ -19,5 +19,5 @@ $ npm i code-translator-cli -g
 $ code-translator-cli <input_dir> <output_dir> <input_lang> <output_lang>
 ```
 
-`input_language` can be `VB`, `C#`, or `JAVA` </br>
-`output_language` can be `VB`, `C#`, `JAVA` or `TS`
+`input_lang` can be `VB`, `C#`, or `JAVA` </br>
+`output_lang` can be `VB`, `C#`, `JAVA` or `TS`
