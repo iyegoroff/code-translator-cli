@@ -1,6 +1,6 @@
 {
   "name": "code-translator-cli",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "CLI for http://www.carlosag.net/tools/codetranslator/",
   "main": "code-translator-cli.js",
   "author": "iyegoroff <iegoroff@gmail.com>",
