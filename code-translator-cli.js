@@ -6,10 +6,7 @@ const fs = require('fs');
 const mkdirp = require('mkdirp');
 const path = require('path');
 const ProgressBar = require('progress');
-
-const promisify = fn => (...args) => new Promise((resolve, reject) => {
-    fn(...args, (err, data) => err !== null ? reject(err) : resolve(data));
-});
+const promisify = require('prmzfy');
 
 const matchFiles = promisify(glob);
 const writeFile = promisify(fs.writeFile);
