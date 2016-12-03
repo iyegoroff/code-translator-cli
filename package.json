@@ -30,6 +30,7 @@
     "code-translator"
   ],
   "scripts": {
+    "test": "npm run lint",
     "lint": "eslint code-translator-cli.js"
   }
 }
