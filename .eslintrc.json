@@ -1,7 +1,16 @@
 {
     "extends": "semistandard",
     "rules": {
-        "indent": ["error", 4],
-        "max-len": ["error", 120]
+        "indent": [
+            "error", 4, 
+            { 
+                "MemberExpression": 1 ,
+                "FunctionDeclaration": { "parameters": 1 },
+                "FunctionExpression": { "parameters": 1 },
+                "CallExpression": { "arguments": 1 }
+            }
+        ],
+        "max-len": ["error", 120],
+        "no-plusplus": "error"
     }
 }

@@ -52,11 +52,11 @@ const convertFiles = (input, output, from, to) => {
 
                 return createFolder(path.dirname(outputName))
                     .then(() => readFile(inputName))
-                    .then(data => {
-                        return shouldBeConverted(inputName, from)
+                    .then(data => (
+                        shouldBeConverted(inputName, from)
                             ? convert(encode(nullFix(data.toString())), from, to)
-                            : data;
-                    })
+                            : data
+                    ))
                     .then(data => writeFile(outputName, data))
                     .then(() => bar.tick());
             }));
@@ -89,7 +89,9 @@ const fetchEncode = () => {
         let bracketStackSize = null;
 
         while (bracketStackSize !== 0) {
-            const char = text[index++];
+            const char = text[index];
+
+            index += 1;
 
             if (char === '{') {
                 bracketStackSize += 1;
