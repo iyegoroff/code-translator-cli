@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "eslint": "^3.11.1",
-    "semistandard": "^9.1.0"
+    "semistandard": "^11.0.0"
   },
   "bin": {
     "code-translator-cli": "./code-translator-cli.js"
